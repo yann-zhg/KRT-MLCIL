@@ -8,7 +8,7 @@ import torch
 import os 
 
 parser = argparse.ArgumentParser(description='MultilabelIncremental Training')
-parser.add_argument('--local_rank', default=0, type=int, help='local rank for DistributedDataParallel')
+parser.add_argument('--local-rank', default=0, type=int, help='local rank for DistributedDataParallel')
 parser.add_argument('--options', nargs='*')
 parser.add_argument('--output_name', type=str)
 

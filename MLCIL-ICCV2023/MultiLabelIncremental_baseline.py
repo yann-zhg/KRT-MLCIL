@@ -156,7 +156,7 @@ class MultiLabelIncremental:
 
             # remove 'body' in params name
             if '21k' in self.pretrained_path:
-                state = {(k if 'body.' not in k else k[5:]): v for k, v in state['state_dict'].items()}
+                state = {(k if 'body.' not in k else k[5:]): v for k, v in state['model'].items()}
                 filtered_dict = {k: v for k, v in state.items() if
                                 (k in model.state_dict() and 'head.fc' not in k)}
             else:

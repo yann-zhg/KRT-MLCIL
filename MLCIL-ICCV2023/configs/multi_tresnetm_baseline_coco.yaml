@@ -3,7 +3,8 @@ arch: baseline
 excel_path: expe_coco_main.xlsx
 
 # datasets
-root_dir: ./datasets/coco2014
+#root_dir: ./datasets/coco2014
+root_dir: /home2/zhangyan/datas/Datasets/coco2017
 dataset_name: coco2014
 image_size: 224
 

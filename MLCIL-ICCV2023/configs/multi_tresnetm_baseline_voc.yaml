@@ -3,7 +3,8 @@ arch: baseline
 excel_path: expe_voc_main.xlsx
 
 # datasets
-root_dir: ./datasets/voc2007
+#root_dir: ./datasets/voc2007
+root_dir: /home2/zhangyan/datas/Datasets/VOC2007/VOCdevkit/VOC2007
 dataset_name: voc
 image_size: 224
 
